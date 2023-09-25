@@ -19,7 +19,6 @@ let package = Package(
         .package(url: "https://github.com/Realm/SwiftLint", from: "0.28.1"), // dev
         .package(url: "https://github.com/f-meloni/Rocket", from: "1.0.0"), // dev
         .package(url: "https://github.com/orta/Komondor", from: "1.0.0"), // dev
-        .package(url: "https://github.com/dancarvajc/danger-swift-xcodesummary", .branch("master")), // dev
     ],
     targets: [
         .target(name: "DangerDependencies", dependencies: ["Danger", "DangerSwiftCoverage", "DangerXCodeSummary"]), // dev
