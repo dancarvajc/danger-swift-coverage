@@ -14,7 +14,7 @@ let package = Package(
         .library(name: "DangerDeps", type: .dynamic, targets: ["DangerDependencies"]), // dev
     ],
     dependencies: [
-        .package(url: "https://github.com/dancarvajc/swift", from: "3.0.0"),
+        .package(url: "https://github.com/dancarvajc/swift", .branch("master")),
         // Dev dependencies
         .package(url: "https://github.com/nicklockwood/SwiftFormat", from: "0.35.8"), // dev
         .package(url: "https://github.com/Realm/SwiftLint", from: "0.28.1"), // dev
